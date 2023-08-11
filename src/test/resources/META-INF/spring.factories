@@ -1,0 +1,4 @@
+org.springframework.test.context.ContextCustomizerFactory = com.gaha.myapp.\
+    config.TestContainersSpringContextCustomizerFactory,com.gaha.myapp.config.\
+    SqlTestContainersSpringContextCustomizerFactory,com.gaha.myapp.config.\
+    KafkaTestContainersSpringContextCustomizerFactory
